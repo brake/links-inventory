@@ -1,0 +1,2 @@
+rootProject.name = "links-inventory"
+
