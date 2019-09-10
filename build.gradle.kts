@@ -13,7 +13,7 @@ val klaxonVersion = "5.0.12"
 val jedisVersion = "3.1.0"
 
 group = "com.github.brake"
-version = "1.0-SNAPSHOT"
+version = "1.1-SNAPSHOT"
 
 repositories {
     mavenCentral()
@@ -44,7 +44,7 @@ tasks {
     withType<Test> {
         useJUnitPlatform()
     }
-    val mainClassName = "com.github.brake.funbox_test.MainKt"
+    val mainClassName = "com.github.brake.links_inventory.MainKt"
     val mainClassKey = "Main-Class"
     jar {
         manifest {
