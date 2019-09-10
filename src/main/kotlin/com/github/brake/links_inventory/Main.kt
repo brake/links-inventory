@@ -16,7 +16,6 @@ import io.ktor.server.engine.embeddedServer
 import io.ktor.server.netty.Netty
 import redis.clients.jedis.Jedis
 
-const val CONFIG_NAME = "config.properties"
 const val DB_HOST_PROPERTY_NAME = "db_host"
 const val DB_HOST_DEFAULT = "localhost"
 const val WEB_PORT = 8080
